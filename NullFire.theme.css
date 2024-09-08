@@ -1,13 +1,12 @@
 /**
  * @name NullHub
- * @author Meta
- * @version 1.1.5
+ * @author Cool!!! & Rob
+ * @version 1.1.6
  * @description No way !!!!
  * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
  * @authorId 1270819450815385631
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
 
 :root {
@@ -20,7 +19,9 @@
   --popoutsize: var(--backgroundsize);
   --backgroundposition: center;
   --popoutblur: 0px;
-  --font: Pixelify Sans;
+  --font-primary: "Segoe UI Variable Text", "Segoe UI", "Helvetica Neue", Helvetica, Verdana, Tahoma, Geneva, Arial, sans-serif;
+  --font-display: "Segoe UI Variable Display", "Segoe UI", "Helvetica Neue", Helvetica, Verdana, Tahoma, Geneva, Arial, sans-serif;
+  --font-code: Consolas, Menlo, Monaco, "Courier New", monospace;
   --transparencycolor: 0,0,0;
   --accentcolor: 190,78,180;
   --backdrop: rgba(0,0,0,0.85);
