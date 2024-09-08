@@ -1,13 +1,13 @@
 /**
  * @name NullHub
  * @author Meta
- * @version 1.0.5
+ * @version 1.1.0
  * @description No way !!!!
  * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
  * @authorId 1270819450815385631
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
 
 :root {
@@ -20,6 +20,7 @@
   --popoutsize: var(--backgroundsize);
   --backgroundposition: center;
   --popoutblur: 0px;
+  --font: Pixelify Sans;
   --transparencycolor: 0,0,0;
   --accentcolor: 190,78,180;
   --backdrop: rgba(0,0,0,0.85);
@@ -39,9 +40,6 @@
   --backdropsize: var(--background-size);
   --backdropblur: 0px;
   --version1_0_5: none;
-  --font-primary: "Segoe UI Variable Text", "Segoe UI", "Helvetica Neue", Helvetica, Verdana, Tahoma, Geneva, Arial, sans-serif;
-  --font-display: "Segoe UI Variable Display", "Segoe UI", "Helvetica Neue", Helvetica, Verdana, Tahoma, Geneva, Arial, sans-serif;
-  --font-code: Consolas, Menlo, Monaco, "Courier New", monospace;
 }
 
 .theme-dark .guilds_a4d4d9 .listItem_c96c45 .wrapper_c5f96a .icon_f90abb {
