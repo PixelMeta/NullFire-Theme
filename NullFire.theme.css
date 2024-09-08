@@ -1,7 +1,7 @@
 /**
  * @name NullHub
  * @author Meta
- * @version 1.1.0
+ * @version 1.1.5
  * @description No way !!!!
  * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
  * @authorId 1270819450815385631
@@ -42,9 +42,19 @@
   --version1_0_5: none;
 }
 
-.theme-dark .guilds_a4d4d9 .listItem_c96c45 .wrapper_c5f96a .icon_f90abb {
-  width: var(24px);
-  height: auto;
-  border-radius: 50%;
+.theme-dark .guilds_a4d4d9 .listItem_c96c45 {
+  margin: 0;
+  width: 48px;
+}
+.theme-dark .guilds_a4d4d9 .listItem_c96c45 .wrapper__8436d.selected_ae80f7::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 4px;
+  left: 4px;
+  background-color: rgba(255, 255, 255, 0.0837);
+  border-radius: 4px;
+  z-index: -1;
 }
 
